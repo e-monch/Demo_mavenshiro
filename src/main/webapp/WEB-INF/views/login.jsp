@@ -14,7 +14,7 @@
     <form method="post" action="/login">
         username:<input name="username" type="text"/> <br/>
         password:<input name="password" type="text"/> <br/>
-        <button name="登陆" type="submit"/>
+        <button type="submit">点击登录</button>
     </form>
     <h1>${errorMsg}</h1>
 </body>

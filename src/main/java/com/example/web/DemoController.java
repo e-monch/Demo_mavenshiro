@@ -7,7 +7,7 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 
-@WebServlet(name = "demoShiro", urlPatterns = "/")
+@WebServlet(name = "demoShiro", urlPatterns = "/login")
 public class DemoController extends HttpServlet
 {
     @Override
@@ -30,7 +30,7 @@ public class DemoController extends HttpServlet
         {
             if (null != username)
                 req.setAttribute("errorMsg", "账号或密码有误");
-            req.getRequestDispatcher("/WEB-INF/view/login.jsp").forward(req, resp);
+            req.getRequestDispatcher("/WEB-INF/views/login.jsp").forward(req, resp);
         }
     }
 }
