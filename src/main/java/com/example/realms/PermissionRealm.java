@@ -19,6 +19,8 @@ public class PermissionRealm extends AuthorizingRealm
 
     protected AuthorizationInfo doGetAuthorizationInfo(PrincipalCollection principalCollection)
     {
+        System.out.println(principalCollection.getPrimaryPrincipal());
+        System.out.println(principalCollection.getRealmNames());
         Set<String> roles = new HashSet<String>();
         Collections.addAll(roles, "role1", "role2");
         SimpleAuthorizationInfo info = new SimpleAuthorizationInfo(roles);
