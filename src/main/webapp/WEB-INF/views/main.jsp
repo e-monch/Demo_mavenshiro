@@ -13,6 +13,6 @@
 <body>
     <h1>${username}</h1>
     <a href="employee">员工管理</a>
-    <a href="department">部门管理</a>
+    <a href="/abc/department">部门管理</a>
 </body>
 </html>

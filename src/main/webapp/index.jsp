@@ -1,8 +1,8 @@
 <%--
   Created by IntelliJ IDEA.
-  User: lmq
-  Date: 2019/3/15
-  Time: 17:18
+  User: Emonch
+  Date: 2019/3/17
+  Time: 15:48
   To change this template use File | Settings | File Templates.
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
@@ -11,6 +11,6 @@
     <title>Title</title>
 </head>
 <body>
-
+    <a href="/main">点我进入</a>
 </body>
 </html>
