@@ -12,7 +12,7 @@
 </head>
 <body>
     <h1>${username}</h1>
-    <a href="employee/e.jsp">员工管理</a>
-    <a href="department/d.jsp">部门管理</a>
+    <a href="employee">员工管理</a>
+    <a href="department">部门管理</a>
 </body>
 </html>
